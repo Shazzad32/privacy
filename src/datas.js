@@ -19,7 +19,7 @@ export const PrivacyPolicyData = [
     description_4:
       "We use this information to operate, maintain, and provide the features and functionality of the Service and to communicate directly with the customer, such as to send the customer alerts on the movements of the (customer) user’s vehicles or assets which is only related to the concerned customer’s vehicles or assets. The customer or user can control the receipt of email and text alerts by visiting “Settings” within the mobile app or email. We may also send the Service-related emails (e.g., account verification, order confirmations, change or updates to features of the Service, technical and security notices) related to the Service the customer has opted for.",
   },
-  {},
+
   {
     title: "Sharing of Your Information",
     description_1:
@@ -27,7 +27,6 @@ export const PrivacyPolicyData = [
     description_2:
       "We may at any time buy or sell/divest the company, or any combination of its products, services, assets and/or businesses. Personal information such as customer names and email addresses, and other user information related to the Service will likely be one of the items transferred in these types of transactions. We may also share, transfer or assign such information in the course of corporate divestitures, mergers, acquisitions, bankruptcies, dissolutions or similar transactions or proceedings. Except as described above, we will not disclose personal information to third parties (including law enforcement, other government entity, or civil litigant; excluding our subcontractors) unless required to do so by law or subpoena or if in our sole discretion, we determine it is necessary to (a) conform to the law, comply with legal process, or investigate, prevent, or take action regarding suspected or actual illegal activities; (b) to enforce our Terms of Use, take precautions against liability, to investigate and defend ourselves against any claims or allegations, or to protect the security or integrity of our site; and/or (c) to exercise or protect the rights, property, or personal safety of FORBIT, our Users or others.",
   },
-  {},
   {
     title: "How We Protect Your Information",
     description_1:
@@ -60,7 +59,7 @@ export const PrivacyPolicyData = [
   },
 
   {
-    description:
+    description_1:
       "You may send us an email at info@forbitbd.com with the words “Privacy Policy in Bangladesh” in the subject line.",
   },
 ];

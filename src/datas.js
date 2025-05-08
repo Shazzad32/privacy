@@ -8,19 +8,6 @@ export const PrivacyPolicyData = [
       "SultanTracker is a GPS Tracking Service using GPS Tracking Devices installed in vehicles or used by the customer for monitoring their concerned Physical Assets. This App or application is used for Tracking the physical devices only, and the data collected through the physical device. Only the customers and or owners of these IOT devices and or assets will be able to use this service for their Asset Tracking purposes. This is the domain of the service of this Application.",
   },
 
-  // {
-  //   title: "How We Collect and Use Information",
-  //   description_1:
-  //     "We collect the following types of information about you: Registration and Profile Information. When you create an account and during the use of the service, we may collect your personal information such as your username, first and last name, email address, mobile phone number.After you set up your account, we may ask for other profile and demographic information, such as your organization name and details, like address, phone number and city.",
-  //   description_2:
-  //     "Camera Permission: Capture or update photo of vehicle picture,user profile picture and driver picture.",
-  //   description_3:
-  //     "Geolocation: The Geo-location data will be collected from physical IOT or physical devices bought by the customer of this Application. We will collect Geo-location from the App only for showing the current location of the user in the map to show distance from a specific vehicle using Finder Devices.",
-  //   description_4:
-  //     "Messages: Send Some Command from User Phone to Physical Devices.",
-  //   description_5:
-  //     "We use this information to operate, maintain, and provide the features and functionality of the Service and to communicate directly with the customer, such as to send the customer alerts on the movements of the (customer) user’s vehicles or assets which is only related to the concerned customer’s vehicles or assets. The customer or user can control the receipt of email and text alerts by visiting “Settings” within the mobile app or email. We may also send the Service-related emails (e.g., account verification, order confirmations, change or updates to features of the Service, technical and security notices) related to the Service the customer has opted for.",
-  // },
   {
     title: "How We Collect and Use Information",
     description_1:
@@ -57,6 +44,14 @@ export const PrivacyPolicyData = [
       "Commands are transmitted only between your app and the authorized device. They are not shared with any third parties.",
 
     description_5:
+      "📞 Phone Call Permission (CALL_PHONE)\n\n" +
+      "Why We Collect:\n" +
+      "We request permission to make phone calls so that you can:\n" +
+      "- Directly call the driver from within the app for convenience and safety.\n\n" +
+      "How It’s Used:\n" +
+      "We only use this permission when you choose to initiate a call to your driver. We do not make any calls without your action or access your call logs.",
+
+    description_6:
       "🛠️ Storage Permission :\n\n" +
       "We use all collected information to operate, maintain, and provide the features and functionality of the Service. This includes:\n" +
       "- Sending alerts on movements of your vehicles or assets.\n" +

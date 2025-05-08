@@ -18,7 +18,12 @@ const PrivacyPolicyPage = () => {
   const highlightKeywords = (text) => {
     if (!text) return null;
 
-    const keywords = ["Messages", "Geolocation"];
+    const keywords = [
+      "Messages Permission",
+      "Location Permission",
+      "Camera Permission",
+      "Storage Permission",
+    ];
 
     const regex = new RegExp(`\\b(${keywords.join("|")})(:)?`, "gi");
 
@@ -59,7 +64,10 @@ const PrivacyPolicyPage = () => {
           <p className="text-black mb-4">
             {highlightKeywords(item.description_3)}
           </p>
-          <p className="text-black">{highlightKeywords(item.description_4)}</p>
+          <p className="text-black mb-4">
+            {highlightKeywords(item.description_4)}
+          </p>
+          <p className="text-black">{highlightKeywords(item.description_5)}</p>
         </div>
       ))}
     </div>

@@ -8,18 +8,61 @@ export const PrivacyPolicyData = [
       "SultanTracker is a GPS Tracking Service using GPS Tracking Devices installed in vehicles or used by the customer for monitoring their concerned Physical Assets. This App or application is used for Tracking the physical devices only, and the data collected through the physical device. Only the customers and or owners of these IOT devices and or assets will be able to use this service for their Asset Tracking purposes. This is the domain of the service of this Application.",
   },
 
+  // {
+  //   title: "How We Collect and Use Information",
+  //   description_1:
+  //     "We collect the following types of information about you: Registration and Profile Information. When you create an account and during the use of the service, we may collect your personal information such as your username, first and last name, email address, mobile phone number.After you set up your account, we may ask for other profile and demographic information, such as your organization name and details, like address, phone number and city.",
+  //   description_2:
+  //     "Camera Permission: Capture or update photo of vehicle picture,user profile picture and driver picture.",
+  //   description_3:
+  //     "Geolocation: The Geo-location data will be collected from physical IOT or physical devices bought by the customer of this Application. We will collect Geo-location from the App only for showing the current location of the user in the map to show distance from a specific vehicle using Finder Devices.",
+  //   description_4:
+  //     "Messages: Send Some Command from User Phone to Physical Devices.",
+  //   description_5:
+  //     "We use this information to operate, maintain, and provide the features and functionality of the Service and to communicate directly with the customer, such as to send the customer alerts on the movements of the (customer) user’s vehicles or assets which is only related to the concerned customer’s vehicles or assets. The customer or user can control the receipt of email and text alerts by visiting “Settings” within the mobile app or email. We may also send the Service-related emails (e.g., account verification, order confirmations, change or updates to features of the Service, technical and security notices) related to the Service the customer has opted for.",
+  // },
   {
     title: "How We Collect and Use Information",
     description_1:
-      "We collect the following types of information about you: Registration and Profile Information. When you create an account and during the use of the service, we may collect your personal information such as your username, first and last name, email address, mobile phone number.After you set up your account, we may ask for other profile and demographic information, such as your organization name and details, like address, phone number and city.",
-    description_2:
-      "Geolocation: The Geolocation data will be collected from physical IOT or physical devices bought by the customer of this Application. We will collect Geolocation from the App only for showing the current location of the user in the map to show distance from a specific vehicle using Finder Devices.",
-    description_3:
-      "Messages: Send Some Command from User Phone to Physical Devices.",
-    description_4:
-      "We use this information to operate, maintain, and provide the features and functionality of the Service and to communicate directly with the customer, such as to send the customer alerts on the movements of the (customer) user’s vehicles or assets which is only related to the concerned customer’s vehicles or assets. The customer or user can control the receipt of email and text alerts by visiting “Settings” within the mobile app or email. We may also send the Service-related emails (e.g., account verification, order confirmations, change or updates to features of the Service, technical and security notices) related to the Service the customer has opted for.",
-  },
+      "We collect the following types of information about you:\n\n\n" +
+      "Registration and Profile Information:\n" +
+      "When you create an account and during the use of the service, we may collect your personal information such as your username, first and last name, email address, and mobile phone number. After setting up your account, we may also request other profile and demographic information such as your organization name, address, phone number, and city.",
 
+    description_2:
+      "📸 Camera Permission :\n\n" +
+      "Why We Collect:\n" +
+      "We request access to your device's camera to:\n" +
+      "- Capture your profile photo.\n" +
+      "- Capture vehicle photos for registration/verification.\n" +
+      "- Capture driver photos for identification and security.\n\n" +
+      "How It’s Used:\n" +
+      "Photos are used within the app for verification and record-keeping. We do NOT share these images with third parties without your consent.",
+
+    description_3:
+      "📍 Location Permission : (Geolocation)\n\n" +
+      "Why We Collect:\n" +
+      "We collect your location data to:\n" +
+      "- Show your current location on the map.\n" +
+      "- Calculate the distance between your phone and your vehicle’s GPS tracker.\n" +
+      "- Improve app functionality by providing accurate location-based services.\n\n" +
+      "How It’s Used:\n" +
+      "Location data is used in real-time only while the app is running. We do not store or share your location unless required by law or with your consent.",
+
+    description_4:
+      "💬 Messages Permission :\n\n" +
+      "Why We Collect:\n" +
+      "We enable message functionality so that you can:\n" +
+      "- Send specific commands from your phone to connected physical devices (like GPS trackers).\n\n" +
+      "How It’s Used:\n" +
+      "Commands are transmitted only between your app and the authorized device. They are not shared with any third parties.",
+
+    description_5:
+      "🛠️ Storage Permission :\n\n" +
+      "We use all collected information to operate, maintain, and provide the features and functionality of the Service. This includes:\n" +
+      "- Sending alerts on movements of your vehicles or assets.\n" +
+      "- Allowing you to control alerts through app settings.\n" +
+      "- Sending service-related emails (e.g., verification, updates, technical notices) related only to services you have opted for.",
+  },
   {
     title: "Sharing of Your Information",
     description_1:
@@ -33,9 +76,14 @@ export const PrivacyPolicyData = [
       "FORBIT cares about the security of your information and uses commercially reasonable physical, administrative, and technological safeguards to preserve the integrity and security of all information we collect and that we share with our service providers. However, no security system is impenetrable and we cannot guarantee the security of our systems 100%. In the event that any information under our control is compromised as a result of a breach of security, we will take reasonable steps to investigate the situation and where appropriate, notify those individuals whose information may have been compromised and take other steps, in accordance with any applicable laws and regulations. FORBIT maintains proper backup of your data, but not everything or related data can be guaranteed, so if upon any unforeseeable reason the data backups fail then FORBIT will notify the user but cannot do anything more than that.",
   },
   {
-    title: "Security",
+    title: "Data Security",
     description_1:
       "we value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.",
+  },
+  {
+    title: "No Data Selling Policy",
+    description_1:
+      "We do NOT sell, trade, or rent your personal data to any third parties. Your privacy is important to us.",
   },
   {
     title: "Links to Other Sites",
@@ -50,7 +98,12 @@ export const PrivacyPolicyData = [
   {
     title: "Changes to This Privacy Policy",
     description_1:
-      "we may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. we will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.",
+      "We may update this Privacy Policy from time to time. Any changes will be posted within the app or on our website.",
+  },
+  {
+    title: " Third-Party Services",
+    description_1:
+      "We may use third-party services that have their own privacy policies. We encourage you to review their policies if used within the app.",
   },
   {
     title: "Your Privacy Rights as in Bangladesh",
@@ -59,7 +112,10 @@ export const PrivacyPolicyData = [
   },
 
   {
+    title: "Contact Us",
     description_1:
-      "You may send us an email at info@forbitbd.com with the words “Privacy Policy in Bangladesh” in the subject line.",
+      "If you have any questions or concerns about this Privacy Policy, please contact us at:",
+    description_2: "Email: admin@forbit.tech",
+    description_3: "Company Name: Forbit Limited",
   },
 ];
